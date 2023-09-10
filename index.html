@@ -23,8 +23,8 @@
     <!-- display my slack name -->
     <div class="main">
       <header>
-        <div class="myName" data-testid="slackUserName">
-          <h1>Rabia Balogun</h1>
+        <div class="myName">
+          <h1 data-testid="slackUserName">Rabia Balogun</h1>
         </div>
         <div class="intro"><h3>Hi, I'm Rabia 👋</h3></div>
       </header>
@@ -42,8 +42,8 @@
         </div>
         <div class="dateContainer">
           <!-- current hng track -->
-          <div data-testid="myTrack">
-            <h2>I'm a Frontend Intern at HNGx.</h2>
+          <div>
+            <h2 data-testid="myTrack">I'm a Frontend Intern at HNGx.</h2>
           </div>
           <br />
           <!-- the day and current time -->
@@ -53,9 +53,10 @@
           </div>
           <br />
           <!-- link to github -->
-          <div class="linkContainer" data-testid="githubURL">
+          <div class="linkContainer">
             <a
               class="myCodeLink"
+              data-testid="githubURL"
               href="https://github.com/rabi-codes/Frontend-Page-Creation"
               target="_blank"
               >view my code on GitHub</a
