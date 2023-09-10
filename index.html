@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend-Page-Creation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- display my slack name -->
+    <div class="main">
+      <header>
+        <div class="myName" data-testid="slackUserName">
+          <h1>Rabia Balogun</h1>
+        </div>
+        <div class="intro"><h3>Hi, I'm Rabia 👋</h3></div>
+      </header>
+      <!-- other contents of the page -->
+      <div class="pageContent">
+        <!-- my slack image -->
+        <div class="picture">
+          <img
+            src="./images/IMG_8886.jpeg"
+            alt="Rabia Balogun"
+            data-testid="slackDisplayImage"
+            width="500px"
+            height="500px"
+          />
+        </div>
+        <div class="dateContainer">
+          <!-- current hng track -->
+          <div data-testid="myTrack">
+            <h2>I'm a Frontend Intern at HNGx.</h2>
+          </div>
+          <br />
+          <!-- the day and current time -->
+          <div>
+            <p class="day" data-testid="currentDayOfTheWeek"></p>
+            <p class="time" data-testid="currentUTCTime"></p>
+          </div>
+          <br />
+          <!-- link to github -->
+          <div class="linkContainer" data-testid="githubURL">
+            <a
+              class="myCodeLink"
+              href="https://github.com/rabi-codes/Frontend-Page-Creation"
+              target="_blank"
+              >view my code on GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
